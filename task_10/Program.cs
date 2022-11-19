@@ -12,7 +12,7 @@ int digit1 = number / 100;
 int digit2 = number % 10;
 if (number>=100 && number <=999)
 {
-    Console.WriteLine($"Вторая цифры числа {number} это {number-digit1*100-digit2*10}");
+    Console.WriteLine($"Вторая цифры числа {number} это {(number-digit1*100-digit2)/10}");
 }
 else
 {
