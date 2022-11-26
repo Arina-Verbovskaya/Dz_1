@@ -18,7 +18,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 double[] array = Array(N);
 Console.WriteLine("[" + string.Join(", ", array) + "]");
 double max = array[0];
-double min = array[1];
+double min = array[0];
 double diff = 0;
 for (int i = 0; i < array.Length; i++)
 {
