@@ -6,7 +6,7 @@
 char[] variants = { ' ', ',', '.' };
 Console.Write("Введите числа через запятую ");
 
-#nullable enable
+
 string? number = Console.ReadLine();
 #nullable disable
 int[] array = Array.ConvertAll(number.Split(variants), int.Parse);
